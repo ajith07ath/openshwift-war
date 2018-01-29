@@ -36,6 +36,9 @@
         <version>2.0.2</version>
         <configuration>
 		  <appName>Accounts</appName>
+			  <processTypes>
+				  <web>java $JAVA_OPTS -cp target/classes:target/dependency/* com.ath.accounts.controller</web>
+			 </processTypes>
 		</configuration>
       </plugin>      
     </plugins>
